@@ -1,0 +1,1 @@
+sourceset_dependencies='{":watch-rtc-sdk:dokkaHtml/androidTestRelease":[],":watch-rtc-sdk:dokkaHtml/debug":[],":watch-rtc-sdk:dokkaHtml/main":[],":watch-rtc-sdk:dokkaHtml/release":[],":watch-rtc-sdk:dokkaHtml/testFixtures":[],":watch-rtc-sdk:dokkaHtml/testFixturesDebug":[],":watch-rtc-sdk:dokkaHtml/testFixturesRelease":[]}'
