@@ -67,6 +67,7 @@ watchRTC.disconnect()
 - addEvent(String, EventType, Any?) //Send custom events to WatchRTC's backend.
 
 
-## If you are using the this sample app then you have to paste your api-key in the `watchrtc-demo` module.
+## Here is the [sample app] for use of this sdk.
 
 [here]: https://github.com/testRTC/watchRTCSDK-Android/raw/master/sdk/watch-rtc-sdk.aar
+[sample app]: https://github.com/testRTC/watchRTCSDK-Android-SampleApp
