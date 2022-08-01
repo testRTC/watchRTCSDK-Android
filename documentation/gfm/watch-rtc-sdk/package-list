@@ -1,0 +1,51 @@
+$dokka.format:gfm-v1
+$dokka.linkExtension:md
+$dokka.location:com.spearline.watchrtc.model////PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.model/index.md
+$dokka.location:com.spearline.watchrtc.model/RTCStatsReport.Companion///PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.model/-r-t-c-stats-report/-companion/index.md
+$dokka.location:com.spearline.watchrtc.model/RTCStatsReport.Companion/fromJson/#kotlin.String/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.model/-r-t-c-stats-report/-companion/from-json.md
+$dokka.location:com.spearline.watchrtc.model/RTCStatsReport.RTCStat///PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.model/-r-t-c-stats-report/-r-t-c-stat/index.md
+$dokka.location:com.spearline.watchrtc.model/RTCStatsReport.RTCStat/RTCStat/#kotlin.Long#java.util.HashMap[kotlin.String,kotlin.Any]/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.model/-r-t-c-stats-report/-r-t-c-stat/-r-t-c-stat.md
+$dokka.location:com.spearline.watchrtc.model/RTCStatsReport.RTCStat/properties/#/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.model/-r-t-c-stats-report/-r-t-c-stat/properties.md
+$dokka.location:com.spearline.watchrtc.model/RTCStatsReport.RTCStat/timestamp/#/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.model/-r-t-c-stats-report/-r-t-c-stat/timestamp.md
+$dokka.location:com.spearline.watchrtc.model/RTCStatsReport///PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.model/-r-t-c-stats-report/index.md
+$dokka.location:com.spearline.watchrtc.model/RTCStatsReport/RTCStatsReport/#java.util.HashMap[kotlin.String,com.spearline.watchrtc.model.RTCStatsReport.RTCStat]#kotlin.Long/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.model/-r-t-c-stats-report/-r-t-c-stats-report.md
+$dokka.location:com.spearline.watchrtc.model/RTCStatsReport/report/#/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.model/-r-t-c-stats-report/report.md
+$dokka.location:com.spearline.watchrtc.model/RTCStatsReport/timestamp/#/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.model/-r-t-c-stats-report/timestamp.md
+$dokka.location:com.spearline.watchrtc.model/RTCStatsReport/toData/#/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.model/-r-t-c-stats-report/to-data.md
+$dokka.location:com.spearline.watchrtc.model/RTCStatsReport/toJson/#/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.model/-r-t-c-stats-report/to-json.md
+$dokka.location:com.spearline.watchrtc.sdk////PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/index.md
+$dokka.location:com.spearline.watchrtc.sdk/EventType.Global///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}watch-rtc-sdk/com.spearline.watchrtc.sdk/-event-type/-global/index.md
+$dokka.location:com.spearline.watchrtc.sdk/EventType.Local///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}watch-rtc-sdk/com.spearline.watchrtc.sdk/-event-type/-local/index.md
+$dokka.location:com.spearline.watchrtc.sdk/EventType.Log///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}watch-rtc-sdk/com.spearline.watchrtc.sdk/-event-type/-log/index.md
+$dokka.location:com.spearline.watchrtc.sdk/EventType///PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-event-type/index.md
+$dokka.location:com.spearline.watchrtc.sdk/GetStatsCallback///PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-get-stats-callback/index.md
+$dokka.location:com.spearline.watchrtc.sdk/GetStatsCallback/onStatsAvailable/#com.spearline.watchrtc.model.RTCStatsReport/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-get-stats-callback/on-stats-available.md
+$dokka.location:com.spearline.watchrtc.sdk/LogLevel.Debug///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}watch-rtc-sdk/com.spearline.watchrtc.sdk/-log-level/-debug/index.md
+$dokka.location:com.spearline.watchrtc.sdk/LogLevel.Error///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}watch-rtc-sdk/com.spearline.watchrtc.sdk/-log-level/-error/index.md
+$dokka.location:com.spearline.watchrtc.sdk/LogLevel.Info///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}watch-rtc-sdk/com.spearline.watchrtc.sdk/-log-level/-info/index.md
+$dokka.location:com.spearline.watchrtc.sdk/LogLevel.Log///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}watch-rtc-sdk/com.spearline.watchrtc.sdk/-log-level/-log/index.md
+$dokka.location:com.spearline.watchrtc.sdk/LogLevel.Warn///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}watch-rtc-sdk/com.spearline.watchrtc.sdk/-log-level/-warn/index.md
+$dokka.location:com.spearline.watchrtc.sdk/LogLevel///PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-log-level/index.md
+$dokka.location:com.spearline.watchrtc.sdk/RtcDataProvider///PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-rtc-data-provider/index.md
+$dokka.location:com.spearline.watchrtc.sdk/RtcDataProvider/getStats/#com.spearline.watchrtc.sdk.GetStatsCallback/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-rtc-data-provider/get-stats.md
+$dokka.location:com.spearline.watchrtc.sdk/WatchRTC///PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/index.md
+$dokka.location:com.spearline.watchrtc.sdk/WatchRTC/WatchRTC/#com.spearline.watchrtc.sdk.RtcDataProvider/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/-watch-r-t-c.md
+$dokka.location:com.spearline.watchrtc.sdk/WatchRTC/WatchRTC/#com.spearline.watchrtc.sdk.WatchRTCConfig?#com.spearline.watchrtc.sdk.RtcDataProvider/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/-watch-r-t-c.md
+$dokka.location:com.spearline.watchrtc.sdk/WatchRTC/addEvent/#kotlin.String#com.spearline.watchrtc.sdk.EventType#kotlin.Any?/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/add-event.md
+$dokka.location:com.spearline.watchrtc.sdk/WatchRTC/addKeys/#java.util.HashMap[kotlin.String,java.util.ArrayList[kotlin.String]]/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/add-keys.md
+$dokka.location:com.spearline.watchrtc.sdk/WatchRTC/connect/#com.spearline.watchrtc.sdk.WatchRTCConfig?/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/connect.md
+$dokka.location:com.spearline.watchrtc.sdk/WatchRTC/disconnect/#/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/disconnect.md
+$dokka.location:com.spearline.watchrtc.sdk/WatchRTC/isConnected/#/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/is-connected.md
+$dokka.location:com.spearline.watchrtc.sdk/WatchRTC/log/#com.spearline.watchrtc.sdk.LogLevel#kotlin.String/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/log.md
+$dokka.location:com.spearline.watchrtc.sdk/WatchRTC/setConfig/#com.spearline.watchrtc.sdk.WatchRTCConfig/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/set-config.md
+$dokka.location:com.spearline.watchrtc.sdk/WatchRTC/setUserRating/#kotlin.Int#kotlin.String/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/set-user-rating.md
+$dokka.location:com.spearline.watchrtc.sdk/WatchRTC/trace/#kotlin.String#kotlin.Any?/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/trace.md
+$dokka.location:com.spearline.watchrtc.sdk/WatchRTCConfig///PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c-config/index.md
+$dokka.location:com.spearline.watchrtc.sdk/WatchRTCConfig/WatchRTCConfig/#kotlin.String#kotlin.String#kotlin.String#java.util.HashMap[kotlin.String,java.util.ArrayList[kotlin.String]]?#kotlin.String?/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c-config/-watch-r-t-c-config.md
+$dokka.location:com.spearline.watchrtc.sdk/WatchRTCConfig/proxyUrl/#/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c-config/proxy-url.md
+$dokka.location:com.spearline.watchrtc.sdk/WatchRTCConfig/rtcApiKey/#/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c-config/rtc-api-key.md
+$dokka.location:com.spearline.watchrtc.sdk/WatchRTCConfig/rtcPeerId/#/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c-config/rtc-peer-id.md
+$dokka.location:com.spearline.watchrtc.sdk/WatchRTCConfig/rtcRoomId/#/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c-config/rtc-room-id.md
+com.spearline.watchrtc.model
+com.spearline.watchrtc.sdk
+
