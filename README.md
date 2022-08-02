@@ -8,6 +8,8 @@ This repository contains the watchRTC android SDK.
 
 The SDK is geared towards those who want to collect WebRTC related data from an android application, log and analyze it as part of the testRTC environment.
 
+Here is the [documentation] of the watchRTC sdk.
+
 ## SDK support and requirement
 * The min android version supported by the SDK is Android-7 (Api Level 24).
 * The SDK only required Internet permission.
@@ -71,3 +73,4 @@ watchRTC.disconnect()
 
 [here]: https://github.com/testRTC/watchRTCSDK-Android/raw/master/sdk/watch-rtc-sdk.aar
 [sample app]: https://github.com/testRTC/watchRTCSDK-Android-SampleApp
+[documentation]: https://github.com/testRTC/watchRTCSDK-Android/blob/master/documentation/gfm/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/index.md
