@@ -15,3 +15,9 @@ androidJvm
 |---|---|
 | eventName | event name |
 | data | Event data. |
+
+## Throws
+
+| | |
+|---|---|
+| [com.spearline.watchrtc.exception.ConnectionException](../../com.spearline.watchrtc.exception/-connection-exception/index.md) | if SDK unable to connect with server. |

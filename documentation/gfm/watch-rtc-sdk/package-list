@@ -1,5 +1,20 @@
 $dokka.format:gfm-v1
 $dokka.linkExtension:md
+$dokka.location:com.spearline.watchrtc.exception////PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.exception/index.md
+$dokka.location:com.spearline.watchrtc.exception/ConnectionException///PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.exception/-connection-exception/index.md
+$dokka.location:com.spearline.watchrtc.exception/ConnectionException/ConnectionException/#kotlin.String/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.exception/-connection-exception/-connection-exception.md
+$dokka.location:com.spearline.watchrtc.logger////PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.logger/index.md
+$dokka.location:com.spearline.watchrtc.logger/ILogger///PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.logger/-i-logger/index.md
+$dokka.location:com.spearline.watchrtc.logger/ILogger/error/#kotlin.String#kotlin.String#kotlin.Throwable/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.logger/-i-logger/error.md
+$dokka.location:com.spearline.watchrtc.logger/ILogger/error/#kotlin.String#kotlin.String/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.logger/-i-logger/error.md
+$dokka.location:com.spearline.watchrtc.logger/ILogger/info/#kotlin.String#kotlin.String/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.logger/-i-logger/info.md
+$dokka.location:com.spearline.watchrtc.logger/ILogger/log/#kotlin.String#kotlin.String/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.logger/-i-logger/log.md
+$dokka.location:com.spearline.watchrtc.logger/WatchRTCLoggerImpl///PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.logger/-watch-r-t-c-logger-impl/index.md
+$dokka.location:com.spearline.watchrtc.logger/WatchRTCLoggerImpl/WatchRTCLoggerImpl/#/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.logger/-watch-r-t-c-logger-impl/-watch-r-t-c-logger-impl.md
+$dokka.location:com.spearline.watchrtc.logger/WatchRTCLoggerImpl/error/#kotlin.String#kotlin.String#kotlin.Throwable/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.logger/-watch-r-t-c-logger-impl/error.md
+$dokka.location:com.spearline.watchrtc.logger/WatchRTCLoggerImpl/error/#kotlin.String#kotlin.String/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.logger/-watch-r-t-c-logger-impl/error.md
+$dokka.location:com.spearline.watchrtc.logger/WatchRTCLoggerImpl/info/#kotlin.String#kotlin.String/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.logger/-watch-r-t-c-logger-impl/info.md
+$dokka.location:com.spearline.watchrtc.logger/WatchRTCLoggerImpl/log/#kotlin.String#kotlin.String/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.logger/-watch-r-t-c-logger-impl/log.md
 $dokka.location:com.spearline.watchrtc.model////PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.model/index.md
 $dokka.location:com.spearline.watchrtc.model/RTCStatsReport.Companion///PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.model/-r-t-c-stats-report/-companion/index.md
 $dokka.location:com.spearline.watchrtc.model/RTCStatsReport.Companion/fromJson/#kotlin.String/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.model/-r-t-c-stats-report/-companion/from-json.md
@@ -13,6 +28,9 @@ $dokka.location:com.spearline.watchrtc.model/RTCStatsReport/report/#/PointingToD
 $dokka.location:com.spearline.watchrtc.model/RTCStatsReport/timestamp/#/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.model/-r-t-c-stats-report/timestamp.md
 $dokka.location:com.spearline.watchrtc.model/RTCStatsReport/toData/#/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.model/-r-t-c-stats-report/to-data.md
 $dokka.location:com.spearline.watchrtc.model/RTCStatsReport/toJson/#/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.model/-r-t-c-stats-report/to-json.md
+$dokka.location:com.spearline.watchrtc.network////PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.network/index.md
+$dokka.location:com.spearline.watchrtc.network/ConnectionFailureListener///PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.network/-connection-failure-listener/index.md
+$dokka.location:com.spearline.watchrtc.network/ConnectionFailureListener/onConnectionFailure/#kotlin.Throwable#okhttp3.Response?/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.network/-connection-failure-listener/on-connection-failure.md
 $dokka.location:com.spearline.watchrtc.sdk////PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/index.md
 $dokka.location:com.spearline.watchrtc.sdk/EventType.Global///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}watch-rtc-sdk/com.spearline.watchrtc.sdk/-event-type/-global/index.md
 $dokka.location:com.spearline.watchrtc.sdk/EventType.Local///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}watch-rtc-sdk/com.spearline.watchrtc.sdk/-event-type/-local/index.md
@@ -35,9 +53,9 @@ $dokka.location:com.spearline.watchrtc.sdk/WatchRTC/addEvent/#kotlin.String#com.
 $dokka.location:com.spearline.watchrtc.sdk/WatchRTC/addKeys/#java.util.HashMap[kotlin.String,java.util.ArrayList[kotlin.String]]/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/add-keys.md
 $dokka.location:com.spearline.watchrtc.sdk/WatchRTC/connect/#com.spearline.watchrtc.sdk.WatchRTCConfig?/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/connect.md
 $dokka.location:com.spearline.watchrtc.sdk/WatchRTC/disconnect/#/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/disconnect.md
-$dokka.location:com.spearline.watchrtc.sdk/WatchRTC/isConnected/#/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/is-connected.md
 $dokka.location:com.spearline.watchrtc.sdk/WatchRTC/log/#com.spearline.watchrtc.sdk.LogLevel#kotlin.String/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/log.md
 $dokka.location:com.spearline.watchrtc.sdk/WatchRTC/setConfig/#com.spearline.watchrtc.sdk.WatchRTCConfig/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/set-config.md
+$dokka.location:com.spearline.watchrtc.sdk/WatchRTC/setLoggerImpl/#com.spearline.watchrtc.logger.ILogger/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/set-logger-impl.md
 $dokka.location:com.spearline.watchrtc.sdk/WatchRTC/setUserRating/#kotlin.Int#kotlin.String/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/set-user-rating.md
 $dokka.location:com.spearline.watchrtc.sdk/WatchRTC/trace/#kotlin.String#kotlin.Any?/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/trace.md
 $dokka.location:com.spearline.watchrtc.sdk/WatchRTCConfig///PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c-config/index.md
@@ -46,6 +64,9 @@ $dokka.location:com.spearline.watchrtc.sdk/WatchRTCConfig/proxyUrl/#/PointingToD
 $dokka.location:com.spearline.watchrtc.sdk/WatchRTCConfig/rtcApiKey/#/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c-config/rtc-api-key.md
 $dokka.location:com.spearline.watchrtc.sdk/WatchRTCConfig/rtcPeerId/#/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c-config/rtc-peer-id.md
 $dokka.location:com.spearline.watchrtc.sdk/WatchRTCConfig/rtcRoomId/#/PointingToDeclaration/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c-config/rtc-room-id.md
+com.spearline.watchrtc.exception
+com.spearline.watchrtc.logger
 com.spearline.watchrtc.model
+com.spearline.watchrtc.network
 com.spearline.watchrtc.sdk
 
