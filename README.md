@@ -57,6 +57,12 @@ Here is the sample app code for the [same]. This function may throw [ConnectionE
 //Please call disconnect() once the call have been disconnected.
 watchRTC.disconnect()
 ```
+
+## SDK logs for debug perspective
+- To print sdk logs in your application you have to set logger via calling `watchRTC.setLoggerImpl(WatchRTCLoggerImpl())` function.
+- You can use your custom logs implementation with use of [ILogger] interface implementation.
+
+
 ## You can also use some of the other functions of the WatchRTC SDK
 - watchRTC.setConfig(WatchRTCConfig) //Set WatchRTC configuration
 - watchRTC.addKeys(HashMap<String, ArrayList<String>>) //Will be sent to WatchRTC's backend.
@@ -75,3 +81,4 @@ watchRTC.disconnect()
 [function]: https://github.com/testRTC/watchRTCSDK-Android-SampleApp/blob/7d0fa6575c9fd2b42bb267e3aa844a46e5bc26a9/watchrtc-demo/src/main/java/com/spearline/webrtc/RTCActivity.kt#L304
 [same]: https://github.com/testRTC/watchRTCSDK-Android-SampleApp/blob/7d0fa6575c9fd2b42bb267e3aa844a46e5bc26a9/watchrtc-demo/src/main/java/com/spearline/webrtc/RTCActivity.kt#L129
 [ConnectionException]: https://github.com/testRTC/watchRTCSDK-Android/blob/master/documentation/gfm/watch-rtc-sdk/com.spearline.watchrtc.exception/-connection-exception/-connection-exception.md
+[ILogger]: https://github.com/testRTC/watchRTCSDK-Android/blob/master/documentation/gfm/watch-rtc-sdk/com.spearline.watchrtc.logger/-i-logger/index.md
