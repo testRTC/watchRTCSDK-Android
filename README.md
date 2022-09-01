@@ -43,14 +43,14 @@ val config = WatchRTCConfig(
 ```Kotlin
 val watchRTC = WatchRTC(config, rtcDataProvider)
 ```
-- Connect to watchRTC's servers
+- Connect to watchRTC's servers. The connect() function may throw `IllegalStateException` if the valid config is not set and call this function.
 ```Kotlin
 //Please call connect() once the peer connection is active
 watchRTC.connect()
 ```
 
 - Log webrtc events to watchRTC server you can use `watchRTC.trace()` function.
-Here is the sample app code for the [same].
+Here is the sample app code for the [same]. This function may throw [ConnectionException] when facing issue to connecting server. Please handle this exception.
 
 - Disconnect the call
 ```Kotlin
@@ -64,6 +64,7 @@ watchRTC.disconnect()
 - watchRTC.log(LogLevel,String) //Log debug messages to WatchRTC's server
 - watchRTC.trace(String, Any?) : Boolean //Send RTC related events to WatchRTC's backend.
 - addEvent(String, EventType, Any?) //Send custom events to WatchRTC's backend.
+- setLoggerImpl(iLogger: ILogger) // SDK logs.
 
 
 ## Here is the [sample app] for use of this sdk.
@@ -73,3 +74,4 @@ watchRTC.disconnect()
 [documentation]: https://github.com/testRTC/watchRTCSDK-Android/blob/master/documentation/gfm/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/index.md
 [function]: https://github.com/testRTC/watchRTCSDK-Android-SampleApp/blob/7d0fa6575c9fd2b42bb267e3aa844a46e5bc26a9/watchrtc-demo/src/main/java/com/spearline/webrtc/RTCActivity.kt#L304
 [same]: https://github.com/testRTC/watchRTCSDK-Android-SampleApp/blob/7d0fa6575c9fd2b42bb267e3aa844a46e5bc26a9/watchrtc-demo/src/main/java/com/spearline/webrtc/RTCActivity.kt#L129
+[ConnectionException]: https://github.com/testRTC/watchRTCSDK-Android/blob/master/documentation/gfm/watch-rtc-sdk/com.spearline.watchrtc.exception/-connection-exception/-connection-exception.md
