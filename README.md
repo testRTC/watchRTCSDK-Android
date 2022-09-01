@@ -69,8 +69,8 @@ watchRTC.disconnect()
 - watchRTC.setUserRating(Int, String) //Set user provided rating with an optional comment.
 - watchRTC.log(LogLevel,String) //Log debug messages to WatchRTC's server
 - watchRTC.trace(String, Any?) : Boolean //Send RTC related events to WatchRTC's backend.
-- addEvent(String, EventType, Any?) //Send custom events to WatchRTC's backend.
-- setLoggerImpl(iLogger: ILogger) // SDK logs.
+- watchRTC.addEvent(String, EventType, Any?) //Send custom events to WatchRTC's backend.
+- watchRTC.setLoggerImpl(iLogger: ILogger) // To print SDK logs for debug perspective.
 
 
 ## Here is the [sample app] for use of this sdk.
