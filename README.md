@@ -15,17 +15,11 @@ Here is the [documentation] of the watchRTC sdk.
 * The SDK only required Internet permission.
 
 ## How to add SDK in your app
-1. Download SDK from [here].
-2. Paste SDK in your app module libs directory
-3. Paste below code inside your app module build.gradle file.
-    ```groovy
-    implementation files('./libs/watch-rtc-sdk.aar')
-    implementation 'com.squareup.okhttp3:okhttp:4.9.3'
-    implementation("com.squareup.okhttp3:logging-interceptor:4.9.3")
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0'
-    implementation 'com.google.code.gson:gson:2.9.0'
-   ```
- 4. Sync project
+  1. Add dependancy in app module build.gradle file.
+      ```groovy
+      implementation 'com.spearline:testrtc-watchrtc-sdk:0.0.1'
+     ```
+  2. Sync project
  
  ## How to implement SDK in your app
 - Implement the `RtcDataProvider` interface and their method `getStats(callback: GetStatsCallback)` The method getStats jobs is to generate webrtc stats report and once the report is avaialble need to call `callback.onStatsAvailable()`. To convert webrtc stats report to RTCStatsReport you can check this [function].
