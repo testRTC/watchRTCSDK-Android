@@ -1,0 +1,6 @@
+//[watch-rtc-sdk](../../../index.md)/[com.spearline.watchrtc.model](../index.md)/[WatchRTCMessageConfig](index.md)/[WatchRTCMessageConfig](-watch-r-t-c-message-config.md)
+
+# WatchRTCMessageConfig
+
+[androidJvm]\
+fun [WatchRTCMessageConfig](-watch-r-t-c-message-config.md)(rtcApiKey: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), rtcRoomId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), rtcPeerId: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), keys: [HashMap](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-hash-map/index.html)&lt;[String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html), [ArrayList](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-array-list/index.html)&lt;[String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)&gt;&gt;? = null, proxyUrl: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html)? = null, interval: [Int](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html), sdkVersion: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html))
