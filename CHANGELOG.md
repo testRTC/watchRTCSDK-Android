@@ -1,10 +1,10 @@
 # Changelog
-----------------------------
+
 All notable changes of WatchRTC Android SDK documented here.
 ----------------------------
 
 ## [1.0.0] - Mar 28, 2023
-----------------------------
+
 ### Added
 
 - Tested & support Vonage SDK
