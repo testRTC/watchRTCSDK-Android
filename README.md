@@ -13,11 +13,12 @@ Here is the [documentation] of the watchRTC sdk.
 ## SDK support and requirement
 * The min android version supported by the SDK is Android-7 (Api Level 24).
 * The SDK only required Internet permission.
+* Kotlin version 1.7.21
 
 ## How to add SDK in your app
   1. Add dependancy in app module build.gradle file.
       ```groovy
-      implementation 'com.spearline:testrtc-watchrtc-sdk:0.0.1'
+      implementation 'com.spearline:testrtc-watchrtc-sdk:1.0.0'
      ```
   2. Sync project
  
@@ -46,7 +47,7 @@ val watchRTC = WatchRTC(config, rtcDataProvider)
 - Connect to watchRTC's servers. The connect() function may throw `IllegalStateException` if the valid config is not set and call this function.
 ```Kotlin
 //Please call connect() once the peer connection is active
-watchRTC.connect()
+watchRTC.connect(context)
 ```
 
 - Log webrtc events to watchRTC server you can use `watchRTC.trace()` function.
@@ -73,12 +74,17 @@ watchRTC.disconnect()
 - watchRTC.setLoggerImpl(iLogger: ILogger) // To print SDK logs for debug perspective.
 
 
-## Here is the [sample app] for use of this sdk.
+## WatchRTC SDK sample applications
+- [WebRTC Sample app]
+- [Twilio Sample App]
+- [Vonage Sample App]
 
 [here]: https://github.com/testRTC/watchRTCSDK-Android/raw/master/sdk/watch-rtc-sdk.aar
-[sample app]: https://github.com/testRTC/watchRTCSDK-Android-SampleApp
+[WebRTC Sample app]: https://github.com/testRTC/watchRTCSDK-Android-SampleApp
 [documentation]: https://github.com/testRTC/watchRTCSDK-Android/blob/master/documentation/gfm/watch-rtc-sdk/com.spearline.watchrtc.sdk/-watch-r-t-c/index.md
 [function]: https://github.com/testRTC/watchRTCSDK-Android-SampleApp/blob/7d0fa6575c9fd2b42bb267e3aa844a46e5bc26a9/watchrtc-demo/src/main/java/com/spearline/webrtc/RTCActivity.kt#L304
 [same]: https://github.com/testRTC/watchRTCSDK-Android-SampleApp/blob/7d0fa6575c9fd2b42bb267e3aa844a46e5bc26a9/watchrtc-demo/src/main/java/com/spearline/webrtc/RTCActivity.kt#L129
 [ConnectionException]: https://github.com/testRTC/watchRTCSDK-Android/blob/master/documentation/gfm/watch-rtc-sdk/com.spearline.watchrtc.exception/-connection-exception/-connection-exception.md
 [ILogger]: https://github.com/testRTC/watchRTCSDK-Android/blob/master/documentation/gfm/watch-rtc-sdk/com.spearline.watchrtc.logger/-i-logger/index.md
+[Twilio Sample App]: https://github.com/testRTC/watchRTCSDK-Android-TwilioSampleApp
+[Vonage Sample App]: https://github.com/testRTC/watchRTCSDK-Android-VonageSampleApp
