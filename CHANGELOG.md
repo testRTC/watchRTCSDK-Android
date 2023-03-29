@@ -14,10 +14,10 @@ All notable changes of WatchRTC Android SDK documented here.
 ### Changed
 - Updated Kotlin version 1.7.21
 - Updated internal library dependency version
-- Updated SDK API documentation
 - Fixed WatchRTC metrics issue
-- Updated `watchRTC.connect` API i.e. New `watchRTC.connect(context, watchRTCConfig)` Old `watchRTC.connect(watchRTCConfig)` 
-- Code optimization and lint check to improve codebase
+- Updated `watchRTC.connect` API i.e. New `watchRTC.connect(context, watchRTCConfig)` Old `watchRTC.connect(watchRTCConfig)`
+- Updated SDK API documentation
+- Code optimization
 
 ## [0.0.1] - Sep 01, 2022
 
