@@ -9,7 +9,7 @@ All notable changes of WatchRTC Android SDK documented here.
 - Tested & support Vonage SDK
 - Tested & support latest libwebrtc-111 library
 - Tested & support Twilio SDK
-- Now onwards SDK & Device information is available on userAgent 
+- Now onwards SDK & Device information is available on userAgent WatchRTC portal
 
 ### Changed
 - Updated Kotlin version 1.7.21
