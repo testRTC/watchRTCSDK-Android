@@ -3,7 +3,7 @@
 # connect
 
 [androidJvm]\
-fun [connect](connect.md)(config: [WatchRTCConfig](../-watch-r-t-c-config/index.md)? = null)
+fun [connect](connect.md)(context: [Context](https://developer.android.com/reference/kotlin/android/content/Context.html), config: [WatchRTCConfig](../-watch-r-t-c-config/index.md)? = null)
 
 Initialize connection to WatchRTC's backend. Should be called once peer connection is open
 
