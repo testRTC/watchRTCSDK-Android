@@ -9,13 +9,14 @@ All notable changes of WatchRTC Android SDK documented here.
 - Tested & support Vonage SDK
 - Tested & support latest libwebrtc-111 library
 - Tested & support Twilio SDK
-- SDK and Device information sent to Server during initialization
+- SDK & Android version sent to server during initialization
 
 ### Changed
 - Updated Kotlin version 1.7.21
 - Updated internal library dependency version
 - Updated SDK API documentation
-- Updated connect API i.e. `WatchRTC.connect(Context, WatchRTCConfig)`
+- Fixed WatchRTC metrics issue
+- Updated `watchRTC.connect` API i.e. New `watchRTC.connect(context, watchRTCConfig)` Old `watchRTC.connect(watchRTCConfig)` 
 - Code optimization and lint check to improve codebase
 
 ## [0.0.1] - Sep 01, 2022
