@@ -13,12 +13,12 @@ Here is the [documentation] of the watchRTC sdk.
 ## SDK support and requirement
 * The min android version supported by the SDK is Android-7 (Api Level 24).
 * The SDK only required Internet permission.
-* Kotlin version 1.7.21
+* Kotlin version 2.0.0
 
 ## How to add SDK in your app
   1. Add dependancy in app module build.gradle file.
       ```groovy
-      implementation 'com.spearline:testrtc-watchrtc-sdk:1.0.0'
+      implementation 'com.spearline:testrtc-watchrtc-sdk:1.40.2'
      ```
   2. Sync project
  
@@ -38,7 +38,8 @@ val config = WatchRTCConfig(
             "<api-key>",
             "<room-id>",
             "<peer-id>",
-            "<keys>" //(optional)
+            "<keys>", //(optional)
+            proxyUrl = "wss://yourproxyurl.com" //(optional)
         )
 ```
 - Create WatchRTC object
