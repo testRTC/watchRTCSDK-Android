@@ -18,7 +18,7 @@ Here is the [documentation] of the watchRTC sdk.
 ## How to add SDK in your app
   1. Add dependancy in app module build.gradle file.
       ```groovy
-      implementation 'com.spearline:testrtc-watchrtc-sdk:1.40.2'
+      implementation 'com.spearline:testrtc-watchrtc-sdk:1.40.3'
      ```
   2. Sync project
  
